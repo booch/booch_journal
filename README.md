@@ -24,7 +24,8 @@ NOTE: This is a work in progress. Most (if not all) the features are not yet imp
     * But I shouldn't have to worry about conflicts
         * So we'll have to deal with conflicts
             * Ideally, put the entries in files in a git repository
-                * This will liekly require a server-side component
+                * This will likely require a server-side component
+            * Let the user know if they're likely to be creating a conflict
     * Ideally, the entries should be encrypted
         * Will have to look into options for encrypting files in git but being able to diff changes
 * Easy navigation between entries
