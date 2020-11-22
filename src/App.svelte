@@ -27,7 +27,7 @@
     </nav>
     <section class="entries">
         <ol>
-            {#each journal.entries as entry}
+            {#each journal.entries as entry (entry.created_at)}
                 <li class="entry"><a href="">{entry.title}</a></li>
             {/each}
         </ol>
