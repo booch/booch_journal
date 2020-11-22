@@ -55,3 +55,27 @@ It's also to give me a little side project where I can learn new tools.
 
 I may eventually turn the web app into a mobile app.
 In that case, I might learn Swift or Cordova or something else.
+
+
+## Building
+
+First, install all the package dependencies:
+
+~~~ shell
+npm install
+~~~
+
+To run the development server:
+
+~~~ shell
+npm run dev &
+open http://localhost:5000
+~~~
+
+To build the app and run the server:
+
+~~~ shell
+npm run build
+npm run start &
+open http://localhost:5000
+~~~
